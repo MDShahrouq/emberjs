@@ -1,0 +1,10 @@
+<h2>List of Scientists</h2>
+
+<ul>
+  {{#each model as |scientist|}}
+    <li>{{scientist}}</li>
+  {{/each}}
+</ul>
+{{! This is comment Reusabe code, just look and model and people as and forloop as #each}}
+
+{{people-list title="List of Scientists" people=model}}

@@ -1,5 +1,12 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<h1><center>PeopleTracker</center></h1>
 
+
+<div class="group">
+ <label>Name:</label>
+  <span class="highlight"></span>
+ {{input type="text" value=name placeholder="Enter your name" style="width: 600px !important;" }}
+</div>
+<div class="text">
+ <h3>My name is <i>{{name}}</i>and I want to learn Emberjs!</h3>
+</div>
 {{outlet}}
